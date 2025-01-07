@@ -1,0 +1,311 @@
+/*
+h1 {
+    color: rgb(228, 32, 32);
+}
+
+p{
+    color:chocolate;
+}
+
+button{
+    color:brown;
+    background-color:azure;
+}
+
+body{
+    background-color:rgb(255,200,0);
+}
+*/
+
+ /* #box{
+    background-color: blue;
+    color:white;
+ }
+
+ .heading{
+    color: red;
+ }
+
+ button{
+    background-color:green;
+ } */
+
+
+
+ /* p{
+    /* text-align:right; */
+    /* text-align:left; */
+    /* text-align:center; */
+ /* } */
+
+ /* h{ */
+    /* text-align:center;
+    text-decoration: underline; */
+    /* text-decoration:blue line-through; */
+ /* } */
+
+ /* a{ */
+    /* text-decoration: none; */
+ /* }*/
+ 
+ /*size likhne ka syntax */
+/* #one{
+   font-size: 25px;
+   line-height: 50px;
+   text-transform:capitalize;
+}
+
+#three{
+   font-size: 10px;
+} */
+
+/* practice set 2(Q-1) */
+/* h1{
+   text-align: center;
+   text-transform: capitalize;
+}
+
+*{
+   font-family:"Times new roman";
+} */
+
+
+
+
+/* LEVEL 2 */
+
+/* div{
+   height: 100px;
+   width: 100px;
+   background-color: wheat;
+   /* border-width: 2px;
+   border-style: solid; */
+   /* border: 2px solid brown; */
+
+   /* border: 2px solid brown;
+   border-radius: 10px; */
+   /* text-align: right;  */
+   /* text align ka use isme bhi jitna width define kiye h utna me text align work kiya*/
+
+/* }  */
+
+/* div{
+   height: 100px;
+   width: 100px;
+   background-color: wheat;
+   border: 2px solid brown;
+   /* border-radius: 10px; */
+   /* border-radius: 50%; */
+   /* padding-left: 25px;
+   padding-right: 25px; */
+   /* use padding shorthand */
+   /* iska mtlb sbhi direction me padding ho jaayegi sirf ek hi likhe to*/
+   /* padding: 25px;  */
+   /* padding: 1px 2px 3px 4px; */
+   /* margin: 25px; */
+   
+
+   
+/* }  */
+
+/* h1{
+   width: 200px;
+   height: 50px;
+   background-color: aquamarine;
+   /* border-width: 3px;
+   border-style: dashed;
+   border-color: black; */
+   /* border: 3px dashed black; */
+   /* text-align: center;    jitna hm width denge utna me hi text align kaam krta 
+} */
+
+/* border shorthand - isme hm height width and colour teeno ko mix kr ke use krta */
+
+/* border radius use - corner of border ko round krne ke liye use krte  to jitna jyada radius
+hoga utna jyada border corner round hoga*/
+
+/* jb bhi hmko CSS me cicrle bnana h to usk e liye pehle hmlog height width se rectangle 
+create krenge then hmlog border radius ko 50% pe set kr denge to wo circle form kr dega */
+
+/* padding- space b/w content and border */
+
+/* padding shorthand- 1px 2px 3px 4px means top right bottom left respectively in clockwise 
+direction of box */
+
+/* margin- do box ke beech ka diffrence */
+
+/* margin shorthand 1px 2px 3px 4px means top right bottom left respectively in clockwise
+ direction of box */
+
+ /* element ke ander mujhe space chahiye to padding use krenge aur bahar space chahiye 
+ to margin use krenge */
+
+ /* practice set 3 */
+/* div{
+   height: 100px;
+   width: 100px;
+   background-color: green;
+   border-radius: 50%;
+}
+ */
+
+ /* amazon navigation bar */
+/* padding margin ko zero set krte bde project ke liye */
+ /* *{
+   padding: 0;
+   margin: 0;
+   color: white;
+   
+ }
+
+ #navbar{
+   height: 60px;
+   background-color: #0f1111;
+ }
+
+button{
+   background-color: #f08804;
+}
+
+#logo{
+   color:#f08804;
+   font-size: 25px;
+} */
+
+/* a { */
+   /* margin select kiye Q ki hmko bahar se space chahiye thi aur right choose kiye q ki hmko right 
+   me sbhi ke space chahiye tha */
+    /* margin-right: 200px;  */
+    /* ye text decoration, none isiliye select kiye Q ki link se add krne se line aa
+    jaa rha tha to usko remove ke liye none select kiye */
+    /* text-decoration: none; */
+/* } */
+
+
+
+/* div ke ander div add krne se hmare element sb baad wale div ke next line pe chale jaate */
+
+/* DISPLAY PROPERTY*/
+/* Display Property- inline, block, inline-block, none
+block jo h wo 100% width le leti but inline ko jitna required h utna hii space legi wo */
+
+/* exmple of block elemnt- div, heading
+   exmple of inline elemnt- span, button, input, anchor */
+
+/* div{
+   background-color:pink;
+   display:inline;
+}
+
+button{
+   display:block;
+} */
+
+/* div{
+   width: 100px;
+   height: 100px;
+   margin: 25px;
+   padding: 25px;
+   display:inline-block;
+} */
+
+/* inline me top and bottom se margin set nhi hota to yhii iska drawback h to isse 
+overcome krne ke liye hmlog inline-block use krte */
+
+/* aur none property best h agar hmko kisi ko remove krna h to aur isme jo element remove hota 
+uske liye koi space reserve nhi hota and ek similar property visibility ke liye h 
+visisbility jb hidden kr denge to remove to ho jaayega but space waha reh jaata */
+
+/* ALPHA CHANNEL   RGBA :> RGB ka colour hi kitna visible rakhna wo opacity mtlb "A" batayega*/
+/* ye visibility show krta, usko opacity se denote krte, opacity:> (0 se 1) tk hota 
+0 mtlb not visible and 1 mtlb completely visible */
+
+/* div{
+   width: 100px;
+   height: 100px;
+   margin: 25px;
+   padding: 25px;
+   display:inline-block; */
+   /* background-color: rgba(255,0,0,0.5); */
+/* } */
+
+
+/* #box1{
+   background-color: rgba(0,0,255,0.5);
+} */
+
+/* #box2{
+   background-color: rgba(0,0,255,0.75);
+}
+
+#box3{
+   background-color: rgba(0,0,25,1);
+} */
+
+/* *{
+   padding: 0;
+   margin: 0;
+   color: white;
+   
+ }
+
+ #navbar{
+   height: 60px;
+   background-color: #0f1111;
+ }
+
+button{
+   background-color: #f08804;
+}
+
+
+#logo{
+   color:#f08804;
+   font-size: 25px;
+}
+a{
+   text-decoration: none;
+   color: white;
+   margin-right : 200px;
+}
+
+.contentBox{
+   height: 100px;
+   width: 100px;
+} */
+
+
+div{
+   height:100px;
+   width:100px;
+   background-color:aqua;
+   border: 2px solid black;
+   display: inline-block
+}
+
+#box1{
+   position: static;
+   
+}
+
+#box2{
+   position: relative;
+   top: 20px;
+   left: 10px;
+
+}
+
+#box3{
+   position: absolute;
+}
+
+
+#box4{
+   position: fixed;
+   top:0;
+}
+
+
+
+
+
